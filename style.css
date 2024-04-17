@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(22, 0, 33);
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(44, 18, 62);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(105, 105, 228);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    margin: 120px 0;
+}
+
+.firstSection > div{
+    width: 30%;
+}
+
+.leftSection{
+    font-size: 3rem;
+}
+
+.purple {
+    color: rgb(175, 123, 182);
+}
+
+.rightSection img{
+    width: 80%;
+}
+
+.another{
+    max-width: 85vw;
+    margin: auto;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.secondSection a{
+    text-decoration: none;
+}
+
+main hr {
+    border: 0;
+    background: rgb(91, 51, 128);
+    height: 1px;
+    margin: 40px 80px;
+}
+
+.abs {
+    margin: 40px 0;
+    background-color: grey;
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.abs:hover{
+    background-color: rgb(147, 160, 160);
+}
+
+.abs:active{
+    cursor: pointer;
+    background-color: rgb(224, 231, 231);
+}
+
+.pushimg {
+    padding: 10px;
+}
+
+.pushimg img{
+    border-radius: 7px;
+}
+
+.abs .content h1 {
+    color: black;
+    padding: 0 10px;
+}
+
+.abs .content p {
+    margin: 3px 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 10px;
+}
+
+.chest {
+    margin: 40px 0;
+    background-color: grey;
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.chest:hover{
+    background-color: rgb(147, 160, 160);
+}
+
+.chest:active{
+    cursor: pointer;
+    background-color: rgb(224, 231, 231);
+}
+
+.chimg {
+    padding: 10px;
+}
+
+.chimg img{
+    border-radius: 7px;
+}
+
+.chest .content h1 {
+    color: black;
+    padding: 0 10px;
+}
+
+.chest .content p {
+    margin: 3px 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 10px;
+}
+
+.biceps {
+    margin: 40px 0;
+    background-color: grey;
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.biceps:hover{
+    background-color: rgb(147, 160, 160);
+}
+
+.biceps:active{
+    cursor: pointer;
+    background-color: rgb(224, 231, 231);
+}
+
+.bisimg {
+    padding: 10px;
+}
+
+.bisimg img{
+    border-radius: 7px;
+}
+
+.biceps .content h1 {
+    color: black;
+    padding: 0 10px;
+}
+
+.biceps .content p {
+    margin: 3px 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 10px;
+}
+
+.diet {
+    margin: 40px 0;
+    background-color: grey;
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.diet:hover{
+    background-color: rgb(147, 160, 160);
+}
+
+.diet:active{
+    cursor: pointer;
+    background-color: rgb(224, 231, 231);
+}
+
+.dietimg {
+    padding: 10px;
+}
+
+.dietimg img{
+    border-radius: 7px;
+}
+
+.diet .content h1 {
+    color: black;
+    padding: 0 10px;
+}
+
+.diet .content p {
+    margin: 3px 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 10px;
+}
+
+.more {
+    margin: 40px 0;
+    background-color: grey;
+    width: 300px;
+    height: 320px;
+    border-radius: 7px;
+}
+
+.more:hover{
+    background-color: rgb(147, 160, 160);
+}
+
+.more:active{
+    cursor: pointer;
+    background-color: rgb(224, 231, 231);
+}
+
+.moreimg {
+    padding: 10px;
+}
+
+.moreimg img{
+    border-radius: 7px;
+}
+
+.more .content h1 {
+    color: black;
+    padding: 0 10px;
+}
+
+.more .content p {
+    margin: 3px 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 10px;
+}
+
+footer p {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer hr {
+    border: 0;
+    background: rgb(91, 51, 128);
+    height: 1px;
+    margin: 40px 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
+    nav ul li {
+        margin: 0 15px; 
+    }
+
+    .firstSection {
+        flex-direction: column; 
+        text-align: center; 
+        margin: 60px 0; 
+    }
+
+    .firstSection > div,
+    .rightSection {
+        width: 100%;
+    }
+
+    .secondSection {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px; 
+    }
+
+    .abs, .chest, .biceps, .diet, .more {
+        width: calc(50% - 10px); 
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+    }
+
+    nav ul li {
+        margin: 10px 0; 
+    }
+
+    .firstSection {
+        margin: 40px 0; 
+    }
+
+    .abs, .chest, .biceps, .diet, .more {
+        width: calc(100% - 20px);
+    }
+}
