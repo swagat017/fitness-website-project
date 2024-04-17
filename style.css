@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    font-family: 'Poppins', sans-serif;
     background-color: rgb(44, 18, 62);
 }
 
@@ -285,7 +288,7 @@ footer hr {
     margin: 40px 80px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1100px) {
     body {
         font-size: 14px; 
     }
@@ -312,7 +315,28 @@ footer hr {
 
     .abs, .chest, .biceps, .diet, .more {
         width: calc(50% - 10px); 
+        height: fit-content;
         margin: 20px auto;
+    }
+
+    .pushimg img {
+        width: 100%;
+    }
+
+    .chimg img {
+        width: 100%;
+    }
+
+    .bisimg img {
+        width: 100%;
+    }
+
+    .moreimg img {
+        width: 100%;
+    }
+
+    .dietimg img {
+        width: calc(100%);
     }
 }
 
@@ -335,5 +359,32 @@ footer hr {
 
     .abs, .chest, .biceps, .diet, .more {
         width: calc(100% - 20px);
+        height: fit-content;
+    }
+
+        .pushimg img {
+        width: 100%;
+    }
+
+    .chimg img {
+        width: 100%;
+    }
+
+    .bisimg img {
+        width: 100%;
+    }
+
+    .moreimg img {
+        width: 100%;
+    }
+
+    .dietimg img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    nav {
+        height: 240px;
     }
 }
